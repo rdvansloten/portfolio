@@ -60,6 +60,7 @@ body {
     font-size: 4vw;
     text-align: center;
     margin: 0 0 0.9em 0;
+    font-weight: normal !important;
 }
 
 #iconbox {
