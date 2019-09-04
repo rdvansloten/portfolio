@@ -19,6 +19,7 @@ body {
     background-color: #33313b;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
 }
 
 #bgbox {
