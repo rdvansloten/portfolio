@@ -148,24 +148,24 @@ body {
     }
 
     #bgbox {
-        height: 2vh;
-        border-top: 1vh solid #4592af;
+        height: 10vh;
+        border-top: 2vh solid #4592af;
         border-bottom: 3vh solid #33313b;
     }
 
     #title {
-        width: 40%;
+        width: 60%;
         margin: 0 auto;
     }
     
     #subtitle {
-        width: 40%;
+        width: 60%;
         margin: 0 auto;
         margin-bottom: 0.5em;
     }
     
     #iconbox {
-        width: 40%;
+        width: 60%;
         margin: 0 auto; 
     }
 }
