@@ -139,7 +139,8 @@ body {
 
 @media only screen and (max-width: 640px) and (orientation: landscape) {   
     #centerbox {
-        width: 50%;
+        width: 90%;
+        text-align: center;
     }
 
     .icon {
@@ -147,8 +148,24 @@ body {
     }
 
     #bgbox {
-        height: 8vh;
-        border-top: 3vh solid #4592af;
-        border-bottom: 2vh solid #33313b;
+        height: 7vh;
+        border-top: 1vh solid #4592af;
+        border-bottom: 3vh solid #33313b;
+    }
+
+    #title {
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    #subtitle {
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 0.5em;
+    }
+    
+    #iconbox {
+        width: 40%;
+        margin: 0 auto; 
     }
 }
