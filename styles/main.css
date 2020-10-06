@@ -139,19 +139,16 @@ body {
 
 @media only screen and (max-width: 640px) and (orientation: landscape) {   
     #centerbox {
-        width: 80%;
+        width: 50%;
     }
 
     .icon {
         width: 10%;
     }
 
-    #icon-tooltip {
-        font-size: 4.6vw;
-    }
-
     #bgbox {
-        background-size: cover;
-        background-position: left;
+        height: 8vh;
+        border-top: 3vh solid #4592af;
+        border-bottom: 2vh solid #33313b;
     }
 }
