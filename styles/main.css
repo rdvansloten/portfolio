@@ -53,15 +53,18 @@ body {
     padding: 0;
     color: #e3c4a8;
     font-weight: normal !important;
+    cursor: default;
 }
 
 #subtitle {
     color: #A9A9A9;
+    fill: #A9A9A9;
     font-family: 'Agenda-Thin';
     font-size: 4vw;
     text-align: center;
     margin: 0 0 0.9em 0;
     font-weight: normal !important;
+    cursor: default;
 }
 
 #iconbox {
@@ -89,6 +92,14 @@ body {
     font-size: 2.3vw;
     padding: 10px;
     height: 1px;
+}
+
+#icon-cloud {
+    line-height: 100vw;
+    width: 4%;
+    padding: 1%;
+    display: inline-block;
+    cursor: default;
 }
 
 #brandbox {
@@ -135,15 +146,15 @@ body {
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {   
     #title {
-        font-size: 12vw;
+        font-size: 10vw;
     }
     
     #subtitle {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .icon {
-        width: 6%;
+        width: 5%;
         padding: 1%;
         margin: 0 0.3em 0 0.3em;
     }
