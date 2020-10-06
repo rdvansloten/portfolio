@@ -13,11 +13,8 @@
             else if(x === "github") {
                 document.getElementById("icon-tooltip").innerHTML = "GitHub";
             }
-            else if(x === "docker") {
-                document.getElementById("icon-tooltip").innerHTML = "Docker Hub";
-            }
-            else if(x === "ansible-galaxy") {
-                document.getElementById("icon-tooltip").innerHTML = "Ansible Galaxy";
+            else if(x === "medium") {
+                document.getElementById("icon-tooltip").innerHTML = "Medium";
             }
             else if(x === "email") {
                 document.getElementById("icon-tooltip").innerHTML = "Email";
@@ -57,6 +54,11 @@
             <svg onclick="location.href='mailto:rdvansloten@gmail.com'" onmouseover="iconToolTip('email')" onmouseout="iconToolTip('void')" class="icon" id="icon-email" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24">
                 <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
             </svg>
+
+            <svg onclick="location.href='https://medium.com/@rdvansloten'" onmouseover="iconToolTip('medium')" onmouseout="iconToolTip('void')" class="icon" id="icon-medium" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24">
+                <path d="M4.37 7.3a.75.75 0 0 0-.25-.65L2.25 4.4v-.34h5.8l4.48 9.83l3.94-9.83H22v.34l-1.6 1.53c-.13.1-.2.28-.17.45v11.24c-.03.17.04.35.17.45l1.56 1.53v.34h-7.84v-.34l1.61-1.57c.16-.15.16-.2.16-.44V8.5L11.4 19.9h-.6L5.57 8.5v7.64c-.07.32.06.64.29.86l2.1 2.57v.33H2v-.33L4.1 17a.94.94 0 0 0 .27-.86V7.3z" />
+            </svg>
+
         </div>
         <div id="icon-tooltip">
             &nbsp;
