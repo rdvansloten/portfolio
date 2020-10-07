@@ -9,6 +9,7 @@ html {
    -ms-user-select: none; /* Internet Explorer/Edge */
    font-weight: normal;
    font-family: 'Agenda-Thin';
+   font-display: swap;
 }
 
 body {
