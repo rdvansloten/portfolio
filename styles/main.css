@@ -49,6 +49,7 @@ body {
     text-align: center;
     margin: 0 auto;
     display: block;
+    border-top: 5px solid #33313b;
 }
 
 #title {
