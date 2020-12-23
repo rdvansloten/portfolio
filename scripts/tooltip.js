@@ -14,6 +14,9 @@ function iconToolTip(x) {
     else if(x === "email") {
         tooltip = "Email";
     }
+    else if(x === "yunikon") {
+        tooltip = "Yunikon";
+    }
     else if(x === "void") {
         tooltip = "&nbsp;";
     }
