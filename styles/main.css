@@ -137,8 +137,8 @@ body {
     }
 
     #bgbox {
-        background-size: cover;
-        background-position: left;
+        /* background-size: cover;
+        background-position: left; */
     }
 }
 
